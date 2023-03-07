@@ -9,17 +9,10 @@ ol, ul{
 a {
     text-decoration: none;
 }
-.logo{
-    font-family: 'Poboto';
-    font-weight: 400;
-    color:#F13C6E;
-    margin-top: 91px;
-    text-align: center;
 
-}
 .container {
-    max-width: 675px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin-left: 1600px;
 }
 .menu{
     margin-top: 70px;
@@ -27,98 +20,121 @@ a {
 .menu-item {
     font-family: 'Poboto';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     display: inline-block;
     margin-right: 40px;
     color: #333333;
    
+     
+}
+.logo{
+    font-family: 'Poboto';
+    font-weight: 700;
+    color:#F13C6E;
+    margin-top: 91px;
+    margin-left: 1900px;
 }
 .head-section{
     width: 1920px;
     height: 604px;
-    background: "./image/Rectangle2.png";
+    background: url("../images/Rectangle\ 2.png");
+    margin-top: 30px;
+    margin-left: 950px;
+    padding:180px 350px;
 }
-/* .text {
+
+.text1{
+    font-family: 'Poboto';
+    font-weight: 700;
+    color: #FFFFFF;
     font-size: 48px;
-    line-height: 78.75px;
-    margin-top: 130px;
+    display: inline-block;
 }
-
-.text1 {
-    font-size: 16px;
-    width: 400px;
-    line-height: 26.25px;
-    margin-top: 60px;
-}
-
-.btn {
-    margin-top: 65px;
-}
-
 .text2 {
-    font-size: 16px;
-    color: white;
-    /* text-align: center; */
-    /* background: #34547A;
-    padding: 12px 35px;
+    font-family: 'Poboto';
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: inline-block;
+}
+.btn {
+    width: 170px; 
+    height: 40px;
+    margin-top: 65px;
+    border: 2px;
+    color: #FFFFFF;
+}
+.spec{
+    font-family: 'Poboto';
+    font-weight: 700;
+    color:#000000;
+    margin-top: 80px;
+    margin-left: 1000px;
+}
+.container2{
+    width: 255px;
+    height: 363px;
+    /* margin-top: 10px; */
+    margin-left: 1200px;
+   
 }
 
-.text3 {
-    font-size: 32px;
-    width: 500px;
-    line-height: 37.5px;
-    margin-top: 253px;
-    margin-left: 160px;
-    text-align: center;
-}
+
+
+
 
 .text4 {
-    font-size: 16px;
-    width: 400px;
-    line-height: 26px;
-    margin-top: 50px;
-    margin-left: 200px;
+    font-size: 14px;
+    font-weight: 400px;
+    color:#333333;
     text-align: center;
-
-}
-
-.projects {
-    background: #34547A;
-    padding: 100px ;
-    margin-top: 100px;
-}
-
-.projects-item {
-    height: 50px;
-    
-}
-.foto{
-    margin: 0 13px;
 }
 
 .text5 {
+    font-size: 21px;
+    font-weight: 500px;
+    color:#333333;
+    text-align: center;
+
+}
+
+/* .projects {
+    background: #34547A;
+    padding: 100px ;
+    margin-top: 100px;
+} */
+
+/* .projects-item {
+    height: 50px;
+    
+} */
+/* .foto{
+    margin: 0 13px;
+} */
+
+/* .text5 {
     font-size: 32px;
     width: 500px;
     line-height: 37.5px;
     margin-top: 100px;
     margin-left: 300px;
     align-self: center;
-}
-.blok {
+} */
+/* .blok {
     width: 600px;
     height: 600px;
     margin-left: 100px;
-}
- .video {
+} */
+ /* .video {
     width: 600px;
     margin-left: 83px;
 
-} 
-.projects1{
+}  */
+/* .projects1{
     background: #34547A;
     padding: 50px 1380px 82px 406px;
     margin-top: 100px;
-}
+} */
 /* .projects-item1 {
     height: 151px; */
       /* margin-left: -610px; */
