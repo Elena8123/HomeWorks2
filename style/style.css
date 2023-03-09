@@ -15,7 +15,11 @@ a {
     margin-left: 1600px;
 }
 .menu{
-    margin-top: 70px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.menu1{
+    margin-top: 40px;
 }
 .menu-item, .text4 {
     font-family: 'Poboto';
@@ -24,16 +28,17 @@ a {
     display: inline-block;
     margin-right: 40px;
     color: #333333;
-   
+ 
      
 }
-.logo{
-    font-family: 'Poboto';
-    font-weight: 700;
-    color:#F13C6E;
-    margin-top: 91px;
-    margin-left: 1900px;
-}
+ .logo{
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    display: inline-block;
+    
+}   
+
 .head-section{
     width: 1920px;
     height: 604px;
@@ -48,19 +53,20 @@ a {
     font-weight: 700;
     color: #FFFFFF;
     font-size: 48px;
-    display: inline-block;
+    
 }
 .text2 {
     font-family: 'Poboto';
     font-weight: 400;
     color: #FFFFFF;
     font-size: 14px;
-    display: inline-block;
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: left;
 }
 .btn {
     margin-top: 65px;
-    border: 5px;
-    border-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
     color: #FFFFFF;
     background: #F13C6E;
     border-radius: 20px;
@@ -69,96 +75,158 @@ a {
     font-family: 'Poboto';
     font-weight: 400;
     font-size: 14px;
-    display: inline-block
+    text-align: left;
+    /* display: inline-block; */
 }
+
 .text3{
     font-family: 'Poboto';
     font-weight: 700;
     color:#000000;
+    font-size: 24px;
     margin-top: 80px;
     margin-left: 1300px;
 }
 .container2{
-    max-width: 1200px;
+    max-width: 1100px;
     margin-top: 50px;
     margin-left: 1300px;
+    display: flex;
+    flex-direction: row;
    
 }
-.block{
+.wrap{
     width: 255px;
     height: 363px;
-    margin-right: 60px;
-    flex-direction: row;
-
+    margin-right: 20px;
+    padding: 25px 65px;
 }
 .armchair{
-    display: inline-block;
-       
+    /* display: inline-block; */
+         
 }
 .text5 {
+    font-family: 'Poboto';
+    font-weight: 500;
     font-size: 21px;
     font-weight: 500px;
     color:#333333;
     margin-top: 20px;
-    text-align: center;
-
+    margin-left: 25px;
+}
+.wrap1{
+    width: 560px;
+    height: 212px;
+    background-color: #F13C6E;
+    margin-right: 30px;
+    padding: 35px 30px;
+    display: flex;
 }
 
-/* .projects {
-    background: #34547A;
-    padding: 100px ;
-    margin-top: 100px;
-} */
+.wrap2{
+    display: flex;
+}
+.text6 {
+    font-family: 'Poboto';
+    font-weight: 700px;
+    font-size: 18px;
+    color:#FFFFFF;
+    margin-top: 0px;
+    margin-left: 0;
+}
+.btn1 {
+    width: 240px;
+    margin-top: 20px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 9px 100px 9px 25px;
+    font-family: 'Poboto';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+} 
+.wrap-img{
+    display: flex;
+    justify-content: end;
+    margin-left: 10px;
 
-/* .projects-item {
-    height: 50px;
+}
+.container3{
+    max-width: 1350px;
+    margin-top: 50px;
+    margin-left: 1100px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.text7 {
+    font-family: 'Poboto';
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500px;
+    color:#000000;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-right: 150px;
+}
+.menu-item1{
+    font-family: 'Poboto';
+    font-weight: 400;
+    font-size: 12px;
+    display: center;
+    margin-left:35px;
+    line-height: 28px;
+    color: #828282;
+    margin-right: 160px;
+}
+
+.container4{
+    max-width: 1100px;
+    margin-top: 70px;
+    margin-left: 1300px;
+}
+.wrap2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo1{
+    margin-left: 30px;
+    display: inline-block;
+} 
+
+.btn2 {
+    width: 170px;
+    margin-top: 20px;
+    border: 2px solid #F13C6E;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 12px 26px;
+    font-family: 'Poboto';
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
     
-} */
-/* .foto{
-    margin: 0 13px;
-} */
+} 
 
-/* .text5 {
-    font-size: 32px;
-    width: 500px;
-    line-height: 37.5px;
-    margin-top: 100px;
-    margin-left: 300px;
-    align-self: center;
-} */
-/* .blok {
-    width: 600px;
-    height: 600px;
-    margin-left: 100px;
-} */
- /* .video {
-    width: 600px;
-    margin-left: 83px;
-
-}  */
-/* .projects1{
-    background: #34547A;
-    padding: 50px 1380px 82px 406px;
-    margin-top: 100px;
-} */
-/* .projects-item1 {
-    height: 151px; */
-      /* margin-left: -610px; */
-
-/* .text6 {
-    font-size: 25px;
-    /* width: 500px; */
-    line-height: 45px; 
-    color: white;
-    /* margin-left: 406px;
-    margin-top: 50px; */
-    text-align: 0 auto;
+.text8 {
+    font-family: 'Poboto';
+    font-weight: 400;
+    font-size: 12px;
+    margin-left:35px;
+    line-height: 28px;
+    color: #828282;
+    
 }
-
-/* .text7 {
-    font-size: 13px;
-    /* width: 500px; */
-    /* line-height: 21px;
-    color: white;
-    margin: 0 auto;
-} */ */ */ */ */
+.container5{
+    max-width: 1100px;
+    margin-top: 70px;
+    /* margin-left: 1300px; */
+}
